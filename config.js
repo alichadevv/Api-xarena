@@ -6,9 +6,9 @@ global.__dirname = dirname(__filename);
 
 global.host = "https://api.xyzen.tech"
 
-global.creator = "xyzendev"
+global.creator = "AmmarBN"
 
-global.key = 'adriankasep'
+global.key = 'yukismall'
 
 global.limit = {
     free: 15,
