@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import fs from "fs"
 import { generateRandomText } from '../lib/func.js';
 
-const prem = JSON.parse(fs.readFileSync('./src/database/premiun.json'));
+const prem = JSON.parse(fs.readFileSync('./src/database/premium.json'));
 
 async function addUser(email) {
     try {
