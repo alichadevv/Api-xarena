@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import fs from "fs"
 import { generateRandomText } from '../lib/func.js';
 
-const data = fs.readFileSync('./src/database/premiun.json', 'utf8');
+const data = fs.readFileSync('./src/database/prem.json', 'utf8');
 const prem = JSON.parse(data);
 #//const prem = JSON.parse(fs.readFileSync('./src/database/premiun.json'));
 
