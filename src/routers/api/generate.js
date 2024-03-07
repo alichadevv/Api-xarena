@@ -4,7 +4,7 @@ import { txt2imgAnime } from "../../Utils/scapers/all-in-one/hugging.js";
 import { remini } from "../../Utils/scapers/all-in-one/replicate.js";
 import { quote, quoteMedia } from "../../Utils/scapers/all-in-one/scapers.js";
 
-const router = express.Router();
+const router = express();
 
 router.get('/api/generate/anime', cekApikey, async(req, res) => {
     const q = req.query.q;
