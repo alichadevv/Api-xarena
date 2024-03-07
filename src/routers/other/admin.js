@@ -1,6 +1,6 @@
 import express from "express";
 
-const router = express.Router();
+const router = express();
 
 router.get('/admin/other/getdb', async(req, res) => {
     const apikey = req.query.apikey;
