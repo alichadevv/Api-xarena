@@ -2,7 +2,7 @@ import express from "express";
 import { cekApikey, limitApikey } from "../../Utils/apikey.js"
 import { listsurah, surah } from "../../Utils/scapers/all-in-one/scapers.js";
 
-const router = express.Router();
+const router = express();
 
 router.get('/api/islami/listsurah', cekApikey, async (req, res) => {
     try {
