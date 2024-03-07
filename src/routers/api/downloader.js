@@ -4,7 +4,7 @@ import { cekApikey } from "../../Utils/apikey.js";
 import { tiktokdl } from "../../Utils/scapers/tiktok.js";
 import { igdl } from "../../Utils/scapers/instagram.js";
 
-const router = express.Router();
+const router = express();
 
 router.get('/api/downloader/tiktok', cekApikey, async (req, res) => {
     try {
