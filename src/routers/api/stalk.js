@@ -2,7 +2,7 @@ import express from "express";
 import { cekApikey } from "../../Utils/apikey.js"
 import { ghstalk } from "../../Utils/scapers/all-in-one/scapers.js";
 
-const router = express.Router();
+const router = express();
 
 router.get('/api/stalk/github', cekApikey, async (req, res) => {
     try {
