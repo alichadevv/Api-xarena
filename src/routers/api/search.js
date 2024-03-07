@@ -3,7 +3,7 @@ import yts from 'yt-search';
 import { cekApikey } from "../../Utils/apikey.js"
 import { pinterest, searchSpotify } from "../../Utils/scapers/all-in-one/scapers.js";
 
-const router = express.Router();
+const router = express();
 
 router.get('/api/search/pinterest', cekApikey, async(req, res) => {
     try {
