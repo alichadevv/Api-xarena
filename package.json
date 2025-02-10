@@ -11,7 +11,7 @@
   "author": "xyzendev",
   "license": "Apache-2.0",
   "dependencies": {
-    "@xyzendev/lowdb": "^1.0.1",
+    "lowdb": "^7.0.1",
     "axios": "^1.6.5",
     "cheerio": "^1.0.0-rc.12",
     "ejs": "^3.1.6",
