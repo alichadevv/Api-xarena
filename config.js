@@ -4,15 +4,15 @@ import { dirname } from 'path';
 global.__filename = fileURLToPath(import.meta.url);
 global.__dirname = dirname(__filename);
 
-global.host = "https://api.xyzen.tech"
+global.host = "https://api-rest.xydlanlux.biz.id"
 
-global.creator = "AmmarBN"
+global.creator = "Xydlan"
 
-global.key = 'yukismall'
+global.key = 'xarenaapis'
 
 global.limit = {
-    free: 15,
-    prem: 1000
+    free: 100,
+    prem: 9000
 }
 
 global.mess = {
