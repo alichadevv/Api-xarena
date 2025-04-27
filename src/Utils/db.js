@@ -1,5 +1,5 @@
 import { MongoClient } from 'mongodb';
-import { JSONFile, Low } from '@xyzendev/lowdb';
+import { JSONFile, Low } from '@types/lowdb';
 import _ from 'lodash';
 import fs from 'fs/promises';
 import yargs from 'yargs/yargs';
