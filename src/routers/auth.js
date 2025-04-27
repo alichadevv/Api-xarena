@@ -7,7 +7,7 @@ import { configurePassport, authenticateWithGoogle, handleGoogleCallback, ensure
 const app = express();
 
 app.use(session({
-  secret: 'xyzenkabagohnaisa',
+  secret: 'xarenaapi',
   resave: true,
   saveUninitialized: true,
   cookie: {

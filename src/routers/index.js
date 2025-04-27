@@ -32,7 +32,7 @@ router.get('/version/bot', async(req, res) => {
             "status": "Active",
             "version": "1.0-rc",
             "license": "Apache-2.0",
-            "author": "xyzendev"
+            "author": "Xydlan"
         })
     }
 })
