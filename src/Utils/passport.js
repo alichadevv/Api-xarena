@@ -5,7 +5,7 @@ import { addUser } from '../models/users.js';
 
 export const configurePassport = () => {
   passport.use(new GoogleStrategy({
-    clientID: '1098907534404-n7g1lfkuqsd3mjah3mj3rd8jgibs4jr7.apps.googleusercontent.com',
+    clientID: '438787480426-19dccmgvcfltn1ltucd0qkdpdkpve5cg.apps.googleusercontent.com',
     clientSecret: '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',
     callbackURL: `${host}/auth/google/callback`,
   }, async (accessToken, refreshToken, profile, done) => {

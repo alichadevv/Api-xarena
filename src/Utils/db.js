@@ -3,8 +3,7 @@ import { JSONFile, Low } from '@xyzendev/lowdb';
 import _ from 'lodash';
 import fs from 'fs/promises';
 import yargs from 'yargs/yargs';
-
-const MONGO_URL = 'mongodb+srv://xyzenapis:xyzen@cluster0.0uplkml.mongodb.net/';
+const MONGO_URL = 'mongodb+srv://fadlanmods:uGehYUAuPTxkU4dU@cluster0.wsacjqi.mongodb.net/';
 
 // Initialize opts and db
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
